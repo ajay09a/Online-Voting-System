@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="home.html">Digital Voting</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="vote.html">Vote</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          <a href="/user/sign-out">
+            Log-out
+          </a>
+          </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- for login -->
+<div class="card">
+<div class="card-header">
+  Vote
+</div>
+<div class="card-body">
+    <form>
+        <div class="mb-3">
+          <p>Name: <%= user.name %></p>
+          <p>Aadhar Id: <%= user.aadhar %></p>
+        </div>
+        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected>Choose Your Party</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select><br>
+       
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+</div>

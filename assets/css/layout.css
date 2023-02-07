@@ -1,0 +1,20 @@
+.card{
+    margin: 100px auto;
+    width: 37em;
+}
+.user-body{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(139, 242, 222));;
+}
+.create-body{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(139, 242, 222));;
+}
+.home-body{
+    background-image: url(../images/vote1.jpg);
+    background-size: 100vw 100vh;
+}
+.row{
+    width: 39em;
+    margin: 100px auto;
+    background-color: ghostwhite;
+    border-radius: 0.25rem;
+}
